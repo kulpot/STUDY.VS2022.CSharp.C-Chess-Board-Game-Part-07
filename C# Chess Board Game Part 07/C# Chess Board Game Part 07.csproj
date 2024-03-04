@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassBoardModel\Board.cs" />
+    <Compile Include="ClassBoardModel\Cell.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassBoardModel\ClassBoardModel.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClassBoardModel\bin\Debug\net8.0\" />
+    <Folder Include="ClassBoardModel\bin\Release\net8.0\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
