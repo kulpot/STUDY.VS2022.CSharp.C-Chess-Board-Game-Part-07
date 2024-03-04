@@ -35,6 +35,23 @@ namespace ClassBoardModel
         }
         //---------END--------- C# Chess Board 02 board cell classes -------------------------------
 
+        //--------START---------- C# Chess Board Game Part 07 challenges ------------------------------------------
+
+        public bool isSafe(int x, int y)
+        {
+            if(x < 0 || x >= Size || y < 0 || y >= Size)
+            {
+                // Console.WriteLine("Pos " + x + ", " + y + " is NOT safe.");
+                return false;
+            }
+            else
+            {
+                // Console.WriteLine("Pos " + x + ", " + y + " is safe.");
+                return true;
+            }
+        }
+
+        //--------END---------- C# Chess Board Game Part 07 challenges ------------------------------------------
 
         //-------START----------- C# Chess Board 03 next legal moves -------------------------------------------------
         public void MarkNextLegalMoves(Cell currentCell, string chessPiece)
