@@ -85,7 +85,23 @@ namespace C__Chess_Board_02
             Console.WriteLine("Enter the current column number");
             int currentColumn = int.Parse(Console.ReadLine());
 
+            //--------START---------- C# Chess Board Game Part 07 challenges ------------------------------------------
+
+            //}
+            //catch
+            //{
+            //      Console.WriteLine("Not valid. Default set to 3.");
+            //      currentColumn = 3;
+            //}
+            //if(currentRow < 0 || currentRow > myBoard.Size || currentColumn < 0 || currentColumn > myBoard.Size)
+            //{
+            //      Console.WriteLine("out of range. Using 3,3");
+            //      currentColumn = 3;
+            //      currentRow = 3;
+            //}
             //myBoard.theGrid[currentRow, currentColumn].CurrentlyOccupied = true;
+            //--------END---------- C# Chess Board Game Part 07 challenges ------------------------------------------
+
             return myBoard.theGrid[currentRow, currentColumn];
         }
         //---------END--------- C# Chess Board Game 06 place piece -------------------------------------------------------
