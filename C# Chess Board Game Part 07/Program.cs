@@ -122,17 +122,21 @@ namespace C__Chess_Board_02
 
                     if(c.CurrentlyOccupied == true)
                     {
-                        Console.Write("| X |");
+                        Console.Write("| X ");
                     }
                     else if(c.LegalNextMove == true)
                     {
-                        Console.Write("| + |");
+                        Console.Write("| + ");
                     }
                     else
                     {
+                       // Console.Write("+---+");
+                        
                         Console.Write("|   ");
                     }
                 }
+                Console.Write("|");
+
                 Console.WriteLine();        // this makes a grid of 8x8 of periods.
             }
 
