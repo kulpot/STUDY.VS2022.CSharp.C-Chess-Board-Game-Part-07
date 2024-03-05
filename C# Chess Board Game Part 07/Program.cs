@@ -87,6 +87,9 @@ namespace C__Chess_Board_02
 
             //--------START---------- C# Chess Board Game Part 07 challenges ------------------------------------------
 
+            Console.WriteLine("Enter the next legal move");
+
+
             //}
             //catch
             //{
@@ -106,6 +109,7 @@ namespace C__Chess_Board_02
         }
         //---------END--------- C# Chess Board Game 06 place piece -------------------------------------------------------
 
+        //--------START---------- C# Chess Board Game Part 07 challenges ------------------------------------------
         //--------START---------- C# Chess Board 05 print board squares -----------------------------------------------
         private static void printBoard(Board myBoard)
         {
@@ -135,6 +139,7 @@ namespace C__Chess_Board_02
             Console.WriteLine("====================================");
         }
         //--------END---------- C# Chess Board 05 print board squares -----------------------------------------------
+        //--------END---------- C# Chess Board Game Part 07 challenges ------------------------------------------
 
     }
 }
