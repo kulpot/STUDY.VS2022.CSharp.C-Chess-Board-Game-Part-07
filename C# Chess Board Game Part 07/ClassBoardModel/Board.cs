@@ -105,6 +105,8 @@ namespace ClassBoardModel
                 case "Queen":
                     break;
 
+                case "Pawn":
+                    break;
                 default:
                     break;
             }
