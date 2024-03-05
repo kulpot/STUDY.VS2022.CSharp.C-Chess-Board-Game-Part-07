@@ -92,8 +92,6 @@ namespace ClassBoardModel
                     theGrid[currentCell.RowNumber - 1, currentCell.ColumnNumber + 1].LegalNextMove = true;
                     theGrid[currentCell.RowNumber + 0, currentCell.ColumnNumber + 1].LegalNextMove = true;
                     theGrid[currentCell.RowNumber + 0, currentCell.ColumnNumber - 1].LegalNextMove = true;
-
-
                     break;
 
                 case "Rook":
@@ -106,6 +104,9 @@ namespace ClassBoardModel
                     break;
 
                 case "Pawn":
+                    if (isSafe(currentCell.RowNumber - 0, currentCell.ColumnNumber + 1))
+                    theGrid[currentCell.RowNumber + 0, currentCell.ColumnNumber + 1].LegalNextMove = true;
+
                     break;
                 default:
                     break;
